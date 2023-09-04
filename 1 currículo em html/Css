@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rodrigo Rigueira</h1>
+        <p>Endereço: Rua 249, Volta Redonda</p>
+        <p>Telefone: (24) 98806-6305</p>
+        <p>Email: rodrigorigueira10@gmail.com</p>
+        <h2>Resumo</h2>
+        <p>My name is Rodrigo, I'm 22 years old, born in the countryside of Rio de Janeiro, a city called Volta Redonda. I have advanced English, ease with teamwork, and logical thinking focused on problem solving.
+
+I studied Electrical Engineering until the 7th period at UniFOA, but I decided to change my trajectory and start my focus on the technology job market and with that I changed my college to Software Engineering where I do at anhanguera and I'm in the 4th period.
+
+I took advantage of all the knowledge and logical reasoning obtained in engineering to join the Development / Software area.
+ 
+Happy and motivated with my current career choice. I will enter the market in the future as a Back-End Developer , and ready for new challenges.
+
+Português:
+
+Me chamo Rodrigo, tenho 22 anos, natural do interior do Rio de Janeiro uma cidade chamada Volta Redonda. Possuo inglês avançado, facilidade com trabalho em equipe, e raciocínio lógico voltado para solução de problemas. 
+
+Estudei Engenharia Elétrica até o 7º período na UniFOA, porém decidi alterar minha trajetória e iniciar meu foco no mercado de trabalho da tecnologia e com isso alterei minha faculdade para Engenharia de Software onde faço na Universidade de Vassouras e estou no 3º período.
+
+Aproveitei todo o conhecimento e raciocínio lógico obtido na engenharia para ingressar na área de Desenvolvimento / Software.
+ 
+Feliz e motivado com minha atual escolha profissional. Entrarei futuramente no mercado como Desenvolvedor Back-End, e pronto para novos desafios.</p>
+        <h2>Experiência Profissional</h2>
+        <p><strong>Google</strong> - Desenvolvedor Backend - Data de Início- 25/07/2023</p>
+        <p>Descrição das responsabilidades e conquistas.</p>
+        <h2>Educação</h2>
+        <p><strong>Universidade de Vassouras</strong> - Engenharia de Software - 2025</p>
+        <p>Aprendendo desenvolver 3 modelos de currículos para github em html e css.</p>
+    </div>
+</body>
+</html>
