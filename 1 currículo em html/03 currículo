@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            color: #333333;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rodrigo Rigueira</h1>
+        <p>Endereço: Rua 249, Volra Redonda</p>
+        <p>Telefone: (24) 98806-6305</p>
+        <p>Email: rodrigorigueira10@gmail.com</p>
+        
+        <h2>Experiência Profissional</h2>
+        <p>Cargo: Desenvolvedor Backend </p>
+        <p>Empresa: Amazon</p>
+        <p>Período: Julho de 2023</p>
+        <p>Descrição: Desenvolvedor backend em Python .</p>
+        
+        <h2>Formação Acadêmica</h2>
+        <p>Curso: Bacharelado em Engenharia de Software</p>
+        <p>Instituição: Universidade de Vassouras</p>
+        <p>Conclusão: Dezembro 2025</p>
+    </div>
+</body>
+</html>
