@@ -1,0 +1,179 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-image: url('https://www.headbangersnews.com.br/wp-content/uploads/2023/06/AvengedSevenfold-BrianCatelle-768x432.jpg'); /* Amarelo ouro */
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700; /* Amarelo ouro */
+}
+
+/* Estilos para as seções */
+main {
+    padding: 20px;
+}
+
+/* Estilos para a biografia */
+#bio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a discografia */
+#discography {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.album {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.album img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.album p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.album ul {
+    list-style: none;
+    padding: 0;
+}
+
+.album li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para vídeos/músicas (opcional) */
+
+/* Estilos para datas de turnê */
+#tour-dates {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tour-dates ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tour-dates li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o formulário de contato */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFD700; /* Amarelo ouro */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC000; /* Amarelo escuro */
+    color: #fff;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #FFD700; /* Amarelo ouro */
+}
