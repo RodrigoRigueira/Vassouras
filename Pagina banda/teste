@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syles.css">
+    <title>Avenged Sevenfold</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <header>
+        <h1>Avenged Sevenfold</h1>
+        <img src="https://yt3.googleusercontent.com/QURd-jXxiCU9oSS26JwyokxZXae5WmbfMqH5c1yMKxjXXmMTNMuPq3Wm1dzw4ndpuNbYBzdciQ=s900-c-k-c0x00ffffff-no-rj" alt="A7X">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#bio">Biografia</a></li>
+            <li><a href="#discography">Discografia</a></li>
+            <li><a href="#tour-dates">Datas de Turnê</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="bio">
+            <h2 class="text-center">Biografia</h2>
+            <p>Avenged Sevenfold é uma banda norte americana de heavy metal, fundada em 1999 em Huntington Beach, Califórnia. A banda consiste com M. Shadows vocal, os guitarristas Zacky Vengeance e Synyster Gates, o baixista Johnny Christ e o baterista Brooks Wackerman. Nossa jornada musical começou há uma década, quando nos apaixonamos pela beleza da natureza e pela música.</p>
+        </section>
+
+        <section id="discography">
+            <h2>Discografia</h2>
+            <div class="album">
+                <div class="imagem">
+                    <img src="https://home.avengedsevenfold.com.br/wp-content/uploads/2013/11/Hail-to-the-king-capa.jpg" alt="Álbum 1">
+                    <p>Hail to the King</p>
+                    <ul>
+                        <li>Hail to the king</li>
+                        <li>Requiem</li>
+                        <li>Acid Rain</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="album">
+                <div class="imagem">
+
+                
+                <img src="https://upload.wikimedia.org/wikipedia/pt/7/72/Grhhhrhry.jpg" alt="Álbum 2">
+                <p>A7X</p>
+                <ul>
+                    <li>Bat Country</li>
+                    <li>Afterlife</li>
+                    <li>A Little Piece of Heaven</li>
+                </ul>
+                </div>
+            </div>
+            
+            <div class="album">
+                <div class="imagem">
+                <img src="https://i0.wp.com/en.naijafindmp3.com/wp-content/uploads/Screenshot-1352.jpg?fit=510%2C245&ssl=1" alt="Álbum 3">
+                <p>Life Is But a Dream</p>
+                <ul>
+                    <li>Cosmic</li>
+                    <li>Mattel</li>
+                    <li>Nobody</li>
+                </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2>Vídeos/Músicas</h2>
+            <!-- Incluir aqui um player de vídeo ou áudio (opcional) -->
+        </section>
+
+        <section id="tour-dates">
+            <h2>Datas de Turnê</h2>
+            <ul>
+                <li>10 de Novembro - Teatro Verde, São Paulo</li>
+                <li>25 de Novembro - Jardim Botânico, Rio de Janeiro</li>
+                <li>5 de Dezembro - Parque Natural, Belo Horizonte</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social-links">
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+        </ul>
+        <p>&copy; 2023 Avenged Sevenfold. Todos os direitos reservados.</p>
+    </footer>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
