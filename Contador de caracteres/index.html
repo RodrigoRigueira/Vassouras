@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador de Caracteres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #text-area {
+            width: 80%;
+            height: 150px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        #char-count {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador de Caracteres</h1>
+
+    <textarea id="text-area" placeholder="Digite ou cole seu texto aqui" oninput="countCharacters()"></textarea>
+    <div id="char-count">Número de caracteres: 0</div>
+
+    <script>
+        function countCharacters() {
+            const text = document.getElementById("text-area").value;
+            const charCount = text.length;
+            document.getElementById("char-count").textContent = `Número de caracteres: ${charCount}`;
+        }
+    </script>
+</body>
+</html>
