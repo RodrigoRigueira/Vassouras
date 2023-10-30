@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperatura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #temperature-input {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #conversion-buttons {
+            margin-top: 10px;
+        }
+
+        #result {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+
+    <input type="number" id="temperature-input" placeholder="Digite a temperatura" />
+    <div id="conversion-buttons">
+        <button onclick="convertToCelsius()">Converter para Celsius</button>
+        <button onclick="convertToFahrenheit()">Converter para Fahrenheit</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script>
+        function convertToCelsius() {
+            const fahrenheit = parseFloat(document.getElementById("temperature-input").value);
+            const celsius = (fahrenheit - 32) * 5/9;
+            document.getElementById("result").textContent = `Resultado: ${celsius.toFixed(2)} °C`;
+        }
+
+        function convertToFahrenheit() {
+            const celsius = parseFloat(document.getElementById("temperature-input").value);
+            const fahrenheit = (celsius * 9/5) + 32;
+            document.getElementById("result").textContent = `Resultado: ${fahrenheit.toFixed(2)} °F`;
+        }
+    </script>
+</body>
+</html>
